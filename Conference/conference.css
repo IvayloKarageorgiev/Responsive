@@ -1,0 +1,218 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v13/eFRpvGLEW31oiexbYNx7Y_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v13/GtRkRNTnri0g82CjKnEB0Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v13/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v13/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v13/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v13/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0 auto;
+    background-color: #293F50;
+    width: auto;
+}
+
+nav {
+    color: #4E7370;
+}
+
+nav ul li {
+    display: inline;
+    float: left;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.date {
+    display: inline;
+    float: right;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 16px;
+    color: #4E7370;
+    margin: 100px 0;
+}
+
+.center {
+    padding-top: 300px;
+    max-width: 1300px;
+    horiz-align: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    padding-bottom: 80px;
+    font-size: 44px;
+    color: #ffffff;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+h2 {
+    color: #4E7370;
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+button {
+    margin-top: 60px;
+    padding: 20px 30px;
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    background-color: inherit;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+button a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 100;
+    letter-spacing: 2px;
+
+}
+
+.reg:hover button {
+    background-color: #ffffff;
+    color: #4E7370;
+}
+
+.reg:hover a {
+    color: #4E7370;
+    background-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 30px auto;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: solid 5px #000000;
+}
+
+ul article {
+    display: inline-block;
+    width: 16%;
+    height: auto;
+    text-align: left;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h5, h4 {
+    margin: 20px 0;
+}
+
+h4 {
+    font-size: 22px;
+}
+h5 {
+    text-align: center;
+}
+
+.foot {
+    margin: 20px 0;
+    background-color: #293F50;
+    width: 100%;
+    height: 140px;
+}
+
+footer p {
+    display: inline-block;
+    margin-left: 60px;
+    --margin-bottom: 60px;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.foot ul {
+    float: right;
+}
+
+.footnav li {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+

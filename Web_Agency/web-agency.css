@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Kreon:400,700|Open+Sans:400,700');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0 auto;
+    --width: 1100px;
+}
+
+header {
+    height: 760px;
+    width: auto;
+    background: url("images/header-background.jpg") no-repeat center;
+    background-size: cover;
+}
+
+ul {
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+nav ul li {
+    width: auto;
+    display: inline;
+    margin-right: 70px;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+nav ul li:first-of-type > a {
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 20px;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+h2 {
+    margin-top: 300px;
+    margin-bottom: -40px;
+    width: 50%;
+    color: white;
+    font-family: "Kreon", sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+h1 {
+    width: 60%;
+    color: white;
+    font-family: "Kreon", sans-serif;
+    font-size: 54px;
+    font-weight: normal;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+nav ul li a:hover {
+    background-color: red;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.one {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    vertical-align: text-bottom;
+}
+
+.one article {
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+    width: 672px;
+}
+
+.one img {
+    float: left;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.first {
+    background-color: red;
+}
+
+.one article > p {
+    color: white;
+    padding-right: 100px;
+}
+
+h3 {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main > h1 {
+    color: black;
+    font-size: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+h4 {
+    text-align: left;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    font-size: 1.2em;
+    opacity: 0.4;
+    font-weight: lighter;
+    width: 670px;
+}
+
+.two {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    vertical-align: text-bottom;
+    text-align: left;
+    padding-left: 80px;
+    margin-bottom: 30px;
+}
+
+.two p {
+    padding-right: 40px;
+}
+
+.two article {
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+    width: 340px;
+    padding-left: 40px;
+    vertical-align: top;
+    font-size: 0.9em;
+}
+
+h5 {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.three {
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-color: lightgrey;
+}
+
+footer {
+    margin: 0 auto;
+    background-color: red;
+
+}
+
+footer ul {
+    margin-left: 140px;
+    padding-bottom: 20px;
+}
+
+footer ul li {
+    display: inline-block;
+    color: white;
+    font-size: 1.4em;
+}
+
+button {
+    background-color: white;
+    padding: 15px;
+    margin-left: 500px;
+    border-radius: 10px;
+    border: hidden;
+    cursor: pointer;
+}
+
+footer a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn:hover > a {
+    color: purple;
+}
+
+.btn:hover > button {
+    color: purple;
+}
+
+.last {
+    text-align: center;
+}

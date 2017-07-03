@@ -1,0 +1,39 @@
+@media all and (max-width: 640px) {
+    .nav-primary {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding-bottom: 20px;
+        line-height: 45px;
+    }
+
+    nav-primary li {
+        padding: 7px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .solo, .studio, .grid-gallery {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .second-row {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mixr-left, .urbeats-right {
+        background-size: cover;
+        width: 100%;
+        align-items: center;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .product-img {
+        max-width: 12rem;
+    }
+}
